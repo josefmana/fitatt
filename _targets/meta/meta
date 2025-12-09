@@ -1,0 +1,24 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+datafile|stem|f86fdea99ac38949|c422eb1ec8aa8d56|2c530c1562a7fbd1|789339568|/Users/josefmana/Desktop/geropsychology/fitatt/data-raw/COSACTIW_DATA_Klara_final.xlsx|t20160.5900224719s|s139111b|139111|file|local|vector|||0.001||
+variables|stem|979abbffcb22df94|cbe346bdcab4fc23|1732bf76b0ee6116|-1580994253||t20431.7830859626s|s710b|710|rds|local|vector|||1.118||
+table2|stem|6c33a0bcba7fea19|ccc00341fdca9cca|d40d3b2d72c245c2|-470181538||t20431.7899046162s|s4355b|4355|rds|local|vector|||0.015||
+rprint|function|6258861e0fc03973
+list_outcomes|function|f7808e8b5b6e3c68
+fit_regressions|function|529208af68cbc897
+frequencies|function|f34cba1ae6be72c9
+plot_pairwise|function|4259bfe12feccd4b
+format_table|function|b9e3b26877989886
+import_data|function|9142648a952a16f9
+compute_chisq|function|9ed3416aeb3bb0f1
+zerolead|function|c12fa9856da37be8
+msd|function|93a5f2b18dcfcf03
+extract_stats|function|efdb8becd6e7bd8f
+table_pairwise|function|ba48f42b3a3f178d
+prepare_table|function|fc9ec9f6ffca298d
+data|stem|c9af6e492072bc3c|6607c65720396b17|c7deb4b8bdcfe46c|33550471||t20431.7942637895s|s13804b|13804|rds|local|vector|||0.048||
+chisquares|stem|78a4cb1da98dcf2f|f1ffa02e82f010a3|b518f00c9502def1|348073509||t20431.7942644357s|s1611b|1611|rds|local|vector|||0.025|Using `all_of()` outside of a selecting function was deprecated in tidyselect 1.2.0. ℹ See details at   <https://tidyselect.r-lib.org/reference/faq-selection-context.html>. Chi-squared approximation may be incorrect. Chi-squared approximation may be incorrect. Chi-squared approximation may be incorrect. Chi-squared approximation may be incorrect|
+models|stem|d79dd2d1b3da43db|d72ef26472c23d9f|30c9bf664f41824f|-1655822660||t20431.7942650246s|s78253b|78253|rds|local|vector|||0.011||
+figure1|stem|0561058f90337a03|3984d18b6fb47338|f7fc2e14abd678b5|-598071735||t20431.7942742681s|s371096b|371096|rds|local|vector|||0.711|Removed 108 rows containing non-finite outside the scale range (`stat_ydensity()`).. Removed 108 rows containing non-finite outside the scale range (`stat_boxplot()`).|
+multiple_regressions|stem|1f766a9e9fccbd8a|613018aa8db44738|30c9bf664f41824f|142251351||t20431.7942748424s|s373704b|373704|rds|local|vector|||0.015|the response appeared on the right-hand side and was dropped. problem with term 3 in model.matrix: no columns are assigned. the response appeared on the right-hand side and was dropped. problem with term 5 in model.matrix: no columns are assigned. the response appeared on the right-hand side and was dropped. problem with term 6 in model.matrix: no columns are assigned. the response appeared on the right-hand side and was dropped. problem with term 4 in model.matrix: no columns are assigned|
+omnibus_table|stem|f3712c9c6c8b047b|16225c471a6ecc6a|47b234030608af40|-2094608969||t20431.7942799325s|s1501b|1501|rds|local|vector|||0.429||
+pwc_table|stem|f5702a3171f96ed3|3d3fa314170e773b|7536002c3fc64b60|-1546561355||t20431.7942835514s|s1417b|1417|rds|local|vector|||0.3||
